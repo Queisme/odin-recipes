@@ -1,0 +1,21 @@
+body {
+    background-color: #1a1a1a;
+    color: antiquewhite;
+    list-style-position: inside;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1, ul, ol {
+    font-size: 45px;
+}
+
+p {
+    font-size: 35px;
+}
+
+img {
+    border: 10px;
+    border-color: azure;
+}
+
