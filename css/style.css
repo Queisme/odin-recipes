@@ -3,6 +3,7 @@ body {
     color: antiquewhite;
     list-style-position: inside;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 100px;
 }
 
@@ -13,9 +14,14 @@ h1, ul, ol {
 p {
     font-size: 35px;
 }
-
+/* border-width, border-color, & border-style -must- be defined*/
 img {
-    border: 10px;
-    border-color: azure;
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+}
+
+a:hover {
+    color: darkred;
 }
 
