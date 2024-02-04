@@ -3,7 +3,7 @@ body {
     color: antiquewhite;
     list-style-position: inside;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Tahoma, sans-serif;
     padding-top: 100px;
 }
 
@@ -16,12 +16,23 @@ p {
 }
 /* border-width, border-color, & border-style -must- be defined*/
 img {
-    border: 3px;
-    border-color: white;
-    border-style: solid;
+    border: 3px solid white;
 }
 
 a:hover {
     color: darkred;
 }
 
+.steps,
+.ingredients {
+    font-size: 55px;
+    border: 2px whitesmoke solid;
+}
+
+.steps {
+    background-color: rgb(153, 2, 2);
+}
+
+.ingredients {
+    background-color: rgb(5, 105, 30);
+}
