@@ -1,14 +1,40 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
 body {
     background-color: #1a1a1a;
-    color: antiquewhite;
+    color: whitesmoke;
     list-style-position: inside;
     text-align: center;
     font-family: Tahoma, sans-serif;
-    padding-top: 100px;
+    margin: 0px auto;
+    padding-top: 10px;
+    line-height: 1.1;
+}
+
+.opening {  /*h1 only on index.html*/
+    font-size: 60px;
+}
+
+ol, li {
+    padding-bottom: 20px;
+}
+
+ul, li {
+    padding-bottom: 10px;
 }
 
 h1, ul, ol {
     font-size: 45px;
+    
+}
+
+.description {
+    margin-top: 10px;
+    
 }
 
 p {
@@ -16,21 +42,35 @@ p {
 }
 /* border-width, border-color, & border-style -must- be defined*/
 img {
-    border: 3px solid white;
+    border: 3px solid darkred;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 a:hover {
     color: darkred;
 }
 
+a:visited {
+    color: darkred;
+}
+
+
+
 .steps,
 .ingredients {
     font-size: 55px;
     border: 2px whitesmoke solid;
+    margin-bottom: 20px;
 }
 
 .steps {
     background-color: rgb(153, 2, 2);
+    
+    
 }
 
 .ingredients {
