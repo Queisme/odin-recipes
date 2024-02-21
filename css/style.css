@@ -50,13 +50,12 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: darkred;
+a:hover,
+a:focus {
+    color: #555;
 }
 
-a:visited {
-    color: darkred;
-}
+
 
 
 
